@@ -1,0 +1,23 @@
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+
+# Idea
+.idea
+*.iml
+
+# "temporary" build files
+/target
+
+# Vagrant
+.vagrant
+
+# other
+*.iws
+*.bak
