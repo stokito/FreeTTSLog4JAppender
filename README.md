@@ -16,7 +16,7 @@ Talking log appender to keep your eyes :)
 <dependency>
     <groupId>name.stokito</groupId>
     <artifactId>FreeTTSLog4JAppender</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 </dependency>
 ```
 
