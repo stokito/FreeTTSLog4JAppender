@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    compile('name.stokito:FreeTTSLog4JAppender:1.0-SNAPSHOT')
+    compile('name.stokito:FreeTTSLog4JAppender:1.0')
 }
 ```
 
@@ -41,11 +41,11 @@ Then add folowing lines to `Config.groovy`:
 // log4j configuration
 log4j = {
     appender(new FreeTTSAppender(name: 'freetts', 
-        threshold: Level.WARN,
+        threshold: Level.INFO,
         voiceName: 'kevin16'))
 
     root {
-        all 'stdout', 'freetts'
+        error 'stdout', 'freetts'
     }
 }
 ```
