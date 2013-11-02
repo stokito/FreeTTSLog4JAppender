@@ -6,7 +6,7 @@
 
     <groupId>name.stokito</groupId>
     <artifactId>FreeTTSLog4JAppender</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>FreeTTS Log4J Appender</name>
     <inceptionYear>2013</inceptionYear>
@@ -34,12 +34,21 @@
 
     <scm>
         <url>http://github.com/stokito/FreeTTSLog4JAppender</url>
+        <connection>scm:git:git://github.com/stokito/FreeTTSLog4JAppender.git</connection>
+        <developerConnection>scm:git:git@github.com:stokito/FreeTTSLog4JAppender.git</developerConnection>
     </scm>
 
     <issueManagement>
         <url>http://github.com/stokito/FreeTTSLog4JAppender/issues</url>
     </issueManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-stokito-maven-FreeTTSLog4JAppender</id>
+            <name>stokito-maven-FreeTTSLog4JAppender</name>
+            <url>https://api.bintray.com/maven/stokito/maven/FreeTTSLog4JAppender</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
