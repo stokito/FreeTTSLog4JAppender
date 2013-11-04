@@ -29,16 +29,6 @@ public class FreeTTSAppender extends AppenderSkeleton {
     /**
      * Whenever you can, use this method to retreive an instance instead
      * of instantiating a new one with <code>new</code>.
-     *
-     * @deprecated Use getFreeTTSAppender instead.  getInstance should have been static.
-     */
-    public FreeTTSAppender getInstance() {
-        return instance;
-    }
-
-    /**
-     * Whenever you can, use this method to retreive an instance instead
-     * of instantiating a new one with <code>new</code>.
      */
     public static FreeTTSAppender getFreeTTSAppender() {
         return instance;
