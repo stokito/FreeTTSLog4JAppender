@@ -4,7 +4,6 @@ Talking log appender to keep your eyes :)
 
 # Add to your project
 ```xml
-
 <repositories>
     <repository>
         <id>bintray-stokito-maven-FreeTTSLog4JAppender</id>
@@ -16,14 +15,14 @@ Talking log appender to keep your eyes :)
 <dependency>
     <groupId>name.stokito</groupId>
     <artifactId>FreeTTSLog4JAppender</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
 Then add it as usual Log4J appender.
 
 ## How to use in Grails
-Add dependecy in `BuildConfig.groovy`:
+Add dependency in `BuildConfig.groovy`:
 
 ```groovy
 repositories {
@@ -31,11 +30,10 @@ repositories {
 }
 
 dependencies {
-    compile('name.stokito:FreeTTSLog4JAppender:1.0')
+    compile('name.stokito:FreeTTSLog4JAppender:1.0.1')
 }
 ```
-
-Then add folowing lines to `Config.groovy`:
+Then add following lines to `Config.groovy`:
 
 ```groovy
 // log4j configuration

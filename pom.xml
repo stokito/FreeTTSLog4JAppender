@@ -6,7 +6,7 @@
 
     <groupId>name.stokito</groupId>
     <artifactId>FreeTTSLog4JAppender</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <name>FreeTTS Log4J Appender</name>
     <inceptionYear>2013</inceptionYear>

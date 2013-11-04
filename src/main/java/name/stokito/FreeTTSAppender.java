@@ -5,7 +5,7 @@ import com.sun.speech.freetts.VoiceManager;
 import org.apache.log4j.AppenderSkeleton;
 import org.apache.log4j.spi.LoggingEvent;
 
-class FreeTTSAppender extends AppenderSkeleton {
+public class FreeTTSAppender extends AppenderSkeleton {
     private static FreeTTSAppender instance = new FreeTTSAppender();
     private Voice helloVoice;
 
