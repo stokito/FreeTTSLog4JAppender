@@ -41,11 +41,11 @@ Then add folowing lines to `Config.groovy`:
 // log4j configuration
 log4j = {
     appender(new FreeTTSAppender(name: 'freetts', 
-        threshold: Level.INFO,
+        threshold: org.apache.log4j.Level.INFO,
         voiceName: 'kevin16'))
 
     root {
-        error 'stdout', 'freetts'
+        error 'freetts'
     }
 }
 ```
