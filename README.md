@@ -15,7 +15,7 @@ Talking log appender to keep your eyes :)
 <dependency>
     <groupId>name.stokito</groupId>
     <artifactId>FreeTTSLog4JAppender</artifactId>
-    <version>1.0.1</version>
+    <version>1.1</version>
 </dependency>
 ```
 
@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    compile('name.stokito:FreeTTSLog4JAppender:1.0.1')
+    compile('name.stokito:FreeTTSLog4JAppender:1.1')
 }
 ```
 Then add following lines to `Config.groovy`:
@@ -40,8 +40,8 @@ Then add following lines to `Config.groovy`:
 log4j = {
     appenders {
         appender(new FreeTTSAppender(name: 'freetts', 
-            threshold: org.apache.log4j.Level.INFO,
-            voiceName: 'kevin16'))
+            voiceName: 'kevin16',
+            nThreads: 10))
     }
 
     root {
