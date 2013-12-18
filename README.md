@@ -22,6 +22,7 @@ Talking log appender to keep your eyes :)
 Then add it as usual Log4J appender.
 
 ## How to use in Grails
+### Instalation
 Add dependency in `BuildConfig.groovy`:
 
 ```groovy
@@ -33,6 +34,7 @@ dependencies {
     compile('name.stokito:FreeTTSLog4JAppender:1.1')
 }
 ```
+### Configuration
 Then add following lines to `Config.groovy`:
 
 ```groovy
@@ -49,4 +51,7 @@ log4j = {
     }
 }
 ```
+
+## Demo application
+You can quikly try [example application](https://github.com/stokito/FreeTTSLog4JDemo)
 
