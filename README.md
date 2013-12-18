@@ -53,5 +53,5 @@ log4j = {
 ```
 
 ## Demo application
-You can quikly try [example application](https://github.com/stokito/FreeTTSLog4JDemo)
+You can quickly try [example application](https://github.com/stokito/FreeTTSLog4JDemo)
 
